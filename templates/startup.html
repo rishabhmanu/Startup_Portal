@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>welcome</title>
+	<link rel="stylesheet" type="text/css" href="/static/startup.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+	<form action="home" method="get">
+		<div class="button1">
+		<button type="submit" class="btn btn-outline-danger"> LogOut </button>
+	</div>
+	</form>
+
+	<h1>Welcome {{ user_name }}</h1>
+	<h2><u>Provide Details For Your StartUp</u></h2>
+	<br><br>
+	<div class="row">
+		<div class="form-group">
+				<label>Title</label><br>
+				<textarea cols="150" rows="2" placeholder="Title Of Your Project"></textarea>
+		</div>
+		<div class="form-group">
+			<label> Problem Statement </label>
+			<br>
+			<textarea cols="150" rows="5" placeholder="Write Your Problem Statement here"></textarea>
+		</div>
+		<div class="form-group">
+			<label> Suggested Solution </label><br>
+			<textarea cols="150" rows="6" placeholder="Write Your Solution of About Your Project here"></textarea>
+		</div>
+		</form>
+	</div>	
+		<form action="home" method="get">	
+			<div class="button">	
+			<button type="submit" class="btn btn-success"> submit </button>
+			</div>
+		</form>
+		
+		
+
+</div>	
+</body>
+</html>

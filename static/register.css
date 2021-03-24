@@ -1,0 +1,18 @@
+body{
+	background-image: url(pic.png);
+	background-size: cover;
+	
+
+}
+.register-box{
+	max-width:2000px;
+	float: none;
+	margin: 100px auto;
+	margin-left:200px;
+}
+.button{
+	text-align: center;
+}
+.form-group{
+	font-style: bold;
+	font-weight: bold;

@@ -1,0 +1,29 @@
+body{
+	background-image: url(pic3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	text-align: center;
+	font-family: monospace, "Helvetica Neue", "Lucida Grande", courier;
+  font-stretch: expanded;
+  	text-shadow: hsl();
+  	margin-top: 100px;
+  	font-style: bold italic;
+}
+.button1{
+	text-align: right;
+	margin: 0;
+	margin-right: -200px;
+	margin-top:0px; 
+	position: relative;
+}
+.button2{
+	text-align: center;
+	margin: 0;
+	margin-right: 100px;
+	margin-top:10px;
+	margin-bottom: 150px;
+	margin-left: 400px; 
+	position: relative; 
+}

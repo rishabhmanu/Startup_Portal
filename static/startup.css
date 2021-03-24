@@ -1,0 +1,23 @@
+body{
+	background-image: url(pic3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.button1{
+	text-align: right;
+	margin: 0;
+	margin-right: -200px;
+	margin-top:0px; 
+	position: relative;
+}
+h2{
+	text-align: center;
+}
+.form-group{
+	font-style: bold;
+	font-weight: bold;
+}
+.button{
+	text-align: center;
+}
